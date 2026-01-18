@@ -38,6 +38,8 @@ pip install -r requirements.txt
 
 Create .env using .env.example
 
+---
+
 Run migrations:
 
 python manage.py migrate
@@ -58,6 +60,8 @@ DB URL
 API URL
 
 Third-party API key
+
+--
 
 How to Test (MANDATORY)
 ✅ CRUD Flow
