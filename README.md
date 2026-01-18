@@ -38,29 +38,6 @@ pip install -r requirements.txt
 
 Create .env using .env.example
 
----
-
-Run migrations:
-
-python manage.py migrate
-python manage.py runserver
-
-Frontend
-git clone <frontend_repo>
-cd frontend
-npm install
-npm run dev
-
-Environment Variables
-
-Provide .env.example file with:
-
-DB URL
-
-API URL
-
-Third-party API key
-
 --
 
 How to Test (MANDATORY)
