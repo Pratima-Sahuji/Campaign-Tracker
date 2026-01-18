@@ -1,44 +1,99 @@
-A full-stack web application built .
+Project Title:
 
-It includes:
+Campaign-Tracker
 
-✅ Full CRUD (UI + REST APIs)  
-✅ Reporting / Data Visualization Dashboard (Live DB)  
-✅ Third-party API Integration (Currency conversion INR → USD)  
-✅ Authentication (Register/Login using JWT)  
-✅ Live deployment (Frontend + Backend)
+## Live Links
 
----
+Frontend: [<LIVE_FRONTEND_URL>](https://campaign-tracker-1-zd3p.onrender.com)
 
-## 🔗 Live Deployment Links
-- Frontend: `(https://campaign-tracker-1-zd3p.onrender.com)`
-- Backend: `(https://campaign-tracker-tz07.onrender.com)`
+Backend API: [<LIVE_BACKEND_URL>](https://campaign-tracker-tz07.onrender.com)
 
----
+API Docs (Swagger/Postman if any): <optional>
 
-## 🛠️ Tech Stack
+Features
 
-### Backend
-- Python (Django)
-- Django REST Framework
-- JWT Auth (`djangorestframework-simplejwt`)
-- PostgreSQL (Render)
-- CORS enabled
-- Gunicorn + Whitenoise (deployment)
-
-### Frontend
-- React (Vite)
-- TailwindCSS
-- Recharts (Charts)
-- Axios
-- React Router DOM
+✅ Full CRUD from UI + REST APIs
+✅ Dashboard/Visualization updates dynamically
+✅ Third-party API Integration
 
 ---
 
-# 📂 Project Structure
+##Tech Stack
 
-```bash
-sbm-demo-task/
-  backend/               # Django backend
-  frontend/              # React frontend
-  README.md
+Frontend: React 
+Backend: Django 
+DB: PostgreSQL
+
+---
+
+##Setup (Local)
+
+Backend
+git clone <backend_repo>
+cd backend
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+
+
+Create .env using .env.example
+
+Run migrations:
+
+python manage.py migrate
+python manage.py runserver
+
+Frontend
+git clone <frontend_repo>
+cd frontend
+npm install
+npm run dev
+
+Environment Variables
+
+Provide .env.example file with:
+
+DB URL
+
+API URL
+
+Third-party API key
+
+How to Test (MANDATORY)
+✅ CRUD Flow
+
+Go to: /
+
+Click “Add New”
+
+Fill form → Submit
+
+Confirm item appears in list
+
+Edit → Update
+
+Delete → Confirm removed
+
+✅ Dashboard / Report
+
+Go to: /dashboard
+
+Shows category/status-wise counts
+
+Add/update/delete data → graph changes automatically
+
+✅ Third-party API Feature
+
+Go to: /integration (or mention exact page)
+
+Example: Fetch external data / send API request
+
+Demonstrates real API working
+
+---
+
+##Deployment Notes
+
+Frontend deployed on: Render
+Backend deployed on: Render
+Database: Postgres Render
