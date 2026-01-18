@@ -11,8 +11,8 @@ It includes:
 ---
 
 ## 🔗 Live Deployment Links
-- Frontend: `https://sbm-demo-task-frontend.onrender.com`
-- Backend: `https://sbm-demo-task-backend.onrender.com`
+- Frontend: `(https://campaign-tracker-1-zd3p.onrender.com)`
+- Backend: `(https://campaign-tracker-tz07.onrender.com)`
 
 ---
 
