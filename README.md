@@ -16,19 +16,6 @@ It includes:
 
 ---
 
-## 🎥 Screen Recording (3–5 min)
-
-Drive Link: <PASTE_GOOGLE_DRIVE_RECORDING_LINK_HERE>
-
-Recording shows:
-1. Open live frontend link
-2. Register/Login
-3. CRUD operations (Create → View → Update → Delete)
-4. Dashboard charts (live update)
-5. Currency conversion feature working
-
----
-
 ## 🛠️ Tech Stack
 
 ### Backend
